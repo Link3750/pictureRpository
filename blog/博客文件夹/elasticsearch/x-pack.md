@@ -68,11 +68,11 @@ Changed password for user [elastic]
 
 在浏览器输入[es存放主机的IP地址] : [端口号]如： ` 192.168.1.75:9200 `
 
-![image-20220309132456883](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220309132456883.png)
+![image-20220309132456883](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032046809.png)
 
 输入 `elastic`的用户和密码
 
-![image-20220309132557636](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220309132557636.png)
+![image-20220309132557636](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032046745.png)
 
 出现这种格式即为登录成功
 
@@ -102,7 +102,7 @@ su elas
 
 出现这种界面的话即表示设置成功
 
-![image-20220309134337628](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220309134337628.png)
+![image-20220309134337628](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032047710.png)
 
 在此处输入elasticsearch的账户密码即可登录
 

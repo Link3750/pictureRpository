@@ -34,17 +34,17 @@ db.password.0=nacos
 
 `192.168.0.82:8848/nacos`
 
-![image-20220423135938412](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220423135938412.png)
+![image-20220423135938412](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032048630.png)
 
 ## nacos使用
 
-![image-20220423152726806](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220423152726806.png)
+![image-20220423152726806](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032048055.png)
 
 我们只使用到nacos的配置中心，因此只讲这块的内容
 
 * 命名空间：命名空间主要用来实现隔离，默认的命名空间是public。我们有三个项目，因此可以设置3个命名空间，来分别管理各个项目的配置。
 
-![image-20220423153908428](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220423153908428.png)
+![image-20220423153908428](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032048763.png)
 
 * DataId：项目用来获取配置文件的标识
 * Group：将配置文件分组存放

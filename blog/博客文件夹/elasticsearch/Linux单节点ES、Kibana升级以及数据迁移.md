@@ -88,7 +88,7 @@ path.repo: /usr/web/es_backup/data
 
 重启es，并打开kibana，找到开发者工具
 
-![image-20220103142458700](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220103142458700.png)
+![image-20220103142458700](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032044966.png)
 
 在开发者工具中创建仓库：
 

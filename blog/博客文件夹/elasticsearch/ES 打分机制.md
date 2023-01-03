@@ -2,7 +2,7 @@
 
 ## ES搜索流程
 
-![MatchQuery流程](D:\谭远\typora文件\博客文件夹\MatchQuery流程.png)
+![MatchQuery流程](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032041269.png)
 
 ES会对搜索出来的结果进行一个打分，然后根据这个打分结果来默认排序。了解这种打分机制对于使用es来存取信息的业务来说便是十分必要的。
 

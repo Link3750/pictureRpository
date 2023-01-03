@@ -337,7 +337,7 @@ https://github.com/bells/elasticsearch-analysis-dynamic-synonym
 
 想了解同义词查询的原理就必须先了解es的 分词 （Trem）。ES中的分词（Analysis）就是把一段文本拆分成一系列的单词，也叫做文本分析。在es中，分析器（Analyzer）负责处理这一系列操作。
 
-![分词演示](D:\谭远\typora文件\博客文件夹\elasticsearch\image-20220719133522888.png)
+![分词演示](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032042581.png)
 
 ES的分词器主要由字符过滤器（Character Filter）、分词器（Tokenizer）、分词过滤器（Token Filter）组成。
 

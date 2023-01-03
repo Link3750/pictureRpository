@@ -4,7 +4,7 @@
 
 visualize是kibana提供的一个视图，在里面可以制作各种图和表格
 
-![image-20220112145332002](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220112145332002.png)
+![image-20220112145332002](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043895.png)
 
 ## DashBoards介绍
 
@@ -22,15 +22,15 @@ Lens是kibana7.5版本以后新上线的一个报表制作工具，能在不深�
 
 ## 报表制作
 
-![image-20220117100108391](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117100108391.png)
+![image-20220117100108391](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043725.png)
 
 ![image-20220117100807790](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117100807790.png)
 
-![image-20220117101721685](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117101721685.png)
+![image-20220117101721685](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043396.png)
 
 ![image-20220117102924550](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117102924550.png)
 
-![image-20220117103219212](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117103219212.png)
+![image-20220117103219212](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043924.png)
 
 自定义聚合方式支持常用的运算符号（+-*/开方，乘方，绝对值等）但当前版本自定义聚合以后导出成csv表格的话会导致冗余字段的出现。而且自定义聚合后的字段无法在另一列中作为数据源使用。
 
@@ -44,12 +44,12 @@ Lens是kibana7.5版本以后新上线的一个报表制作工具，能在不深�
 
 点击share->Embed code
 
-![image-20220117110524954](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117110524954.png)
+![image-20220117110524954](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043237.png)
 
 snapshot是以快照形式分享报表，不会展示后续修改；saved object保存后，后续报表的修改也能实时更新。include选项会将时间选择器、筛选条件等添加到报表的展示界面中
 
-![image-20220117110614082](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117110614082.png)
+![image-20220117110614082](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043673.png)
 
 ## 报表导出功能
 
-![image-20220117110944157](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220117110944157.png)
+![image-20220117110944157](https://raw.githubusercontent.com/Link3750/pictureRpository/main/pic/202301032043293.png)

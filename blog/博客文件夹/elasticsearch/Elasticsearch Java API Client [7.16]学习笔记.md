@@ -148,25 +148,6 @@ co.elastic.clients.elasticsearch.indices.CreateIndexResponse createIndexResponse
 
 但似乎无法在现有api提供的接口中实现。
 
-## 关闭连接
-
-由于现有EJAC版本没有提供` client.close()` 方法来供使用者关闭连接请求，因此我们必须写一个关闭方法：
-
-``` java
-    /**
-     * 销毁es连接
-     *
-     * @param client
-     * @throws IOException
-     */
-    public static void destroyConnection(ElasticsearchClient client) throws IOException {
-        ElasticsearchTransport elasticsearchTransport = client._transport();
-        elasticsearchTransport.close();
-    }
-```
-
-EJAC的连接是建立在 ` RestClient`的基础上，通过 ` ElasticsearchTransport `对象进行转换，因此可以从连接中获取到 `ElasticsearchTransport`对象，通过该对象提供的 `close()`方法关闭连接请求。
-
 ## 与原版API优缺点的比较
 
 1. EJAC 引入了函数式编程，使用起来更加灵活，ERHLC需要构建相当多的查询对象。
